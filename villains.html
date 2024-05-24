@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Superheroes & Villains</title>
+  <link rel="stylesheet" type="text/css" href="villains.css">
+</head>
+
+<body>
+  <main>
+    <div class="title-subtitle-container">
+      <h1>Supervillains R' Us 🤖🐱‍🏍🐱‍👤👽</h1>
+      <h2>Get to know some of the most popular heroes and villains in comic book history. Click on each image to learn many interesting facts about that hero or villain!</h2>
+    </div>
+
+    <h3 class="hero-gallery-title">The Villains</h3>
+    <div class="gallery-wrap">
+      <button class="left-arrow">◀</button>
+      <div class="hero-gallery" id="hero-gallery">
+        <!-- Images will be dynamically added here -->
+      </div>
+      <button class="right-arrow">▶</button>
+    </div>
+
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modal-image">
+      <div id="modal-caption"></div>
+      <div id="modal-description"></div>
+    </div>
+
+    <div class="link-container">
+      <a href="index.html">Go To Heroes</a>
+    </div>
+  </main>
+
+  <script src="villains.js" type="module"></script>
+</body>
+
+</html>
